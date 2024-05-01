@@ -1,0 +1,7 @@
+#!/bin/bash -e
+
+trap "docker-compose down --volumes" 0
+
+docker-compose build dev
+
+docker-compose run --service-ports --rm dev

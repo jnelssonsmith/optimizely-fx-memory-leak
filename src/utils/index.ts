@@ -1,0 +1,1 @@
+export { getUriFromRequest } from './getUriFromRequest'

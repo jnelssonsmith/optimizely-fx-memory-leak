@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "incremental": true,
+    "module": "ESNext",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "preserveWatchOutput": true,
+    "pretty": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES5",
+    "resolveJsonModule": true,
+  }
+}

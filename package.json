@@ -1,0 +1,42 @@
+{
+  "name": "optimizely-fx-memory-leak",
+  "version": "1.0.0",
+  "description": "Example project showing a memory leak in optimizely FX node sdk",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "node --inspect dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jnelssonsmith/optimizely-fx-memory-leak.git"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.24.1",
+    "@optimizely/optimizely-sdk": "^5.3.0",
+    "express": "^4.17.2",
+    "node-cache": "^5.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/express": "^4.17.13",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "babel-loader": "^9.0.0",
+    "concurrently": "^8.0.0",
+    "fork-ts-checker-webpack-plugin": "^9.0.0",
+    "nodemon": "^3.0.0",
+    "typescript": "^5.0.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
